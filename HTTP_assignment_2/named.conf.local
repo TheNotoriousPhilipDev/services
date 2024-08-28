@@ -1,0 +1,18 @@
+zone "mastertecnomez.com" {
+    type slave;
+    file "/etc/bind/db.mastertecnomez.com";
+    masters { 192.168.50.4; };
+};
+
+zone "slavetecnomez.com" {
+    type slave;
+    file "/etc/bind/db.slavetecnomez.com";
+    masters { 192.168.50.4; };
+};
+        
+          
+zone "50.168.192.in-addr.arpa" {
+    type slave;
+    file "/etc/bind/db.mastertecnomez.rev";
+    masters { 192.168.50.4; };
+};
