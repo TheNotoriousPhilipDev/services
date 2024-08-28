@@ -1,0 +1,305 @@
+    1  sudo apt -y update && sudo apt -y upgrade
+    2  exit
+    3  sudo apt install bind9
+    4  sudo apt install dnsutils
+    5  exit
+    6  systemctl status bind0
+    7  systemctl status bind9
+    8  sudo apt install net-tools
+    9  cd /etc/bind
+   10  ls
+   11  sudo nano named.conf.local 
+   12  ifconfig
+   13  sudo nano named.conf.local 
+   14  sudo named-checkconf /etc/bind/named.conf
+   15  sudo named-checkconf /etc/bind/named.conf.local
+   16  sudo systemctl restart bind9.service
+   17  exit
+   18  cd /etc/bind
+   19  ls
+   20  clear
+   21  ls
+   22  cat named.conf.local
+   23  nano named.conf.default-zones 
+   24  ifconfig
+   25  sudo mv /etc/resolv.conf /etc/resolv.conf.backup
+   26  ls
+   27  sudo mv /etc/resolv.conf.backup /etc/resolv.conf
+   28  ifconfig
+   29  exit
+   30  cd /etc/bind
+   31  sudo nano named.conf.local 
+   32  sudo systemctl reload bind9
+   33  sudo nano named.conf.local 
+   34  ifconfig
+   35  cd
+   36  sudo apt install apache2
+   37  exit
+   38  apache2 -v
+   39  which apache2
+   40  sudo service apache2 status
+   41  cd /etc/apache2/sites-available/
+   42  ls
+   43  nano 000-default.conf 
+   44  sudo nano /etc/apache2/sites-available/000-default.conf
+   45  ls
+   46  cd ..
+   47  ls
+   48  nano apache2.conf 
+   49  sudo nano /etc/apache2/sites-available/private-files.conf
+   50  cd sites-available/
+   51  ls
+   52  sudo a2ensite private-files.conf
+   53  sudo systemctl reload apache2
+   54  sudo a2ensite private-files.conf
+   55  sudo systemctl reload apache2
+   56  sudo nano /etc/apache2/sites-available/private-files.conf
+   57  sudo apt-get install libapache2-mod-authnz-pam
+   58  sudo systemctl reload apache2
+   59  sudo a2enmod authnz_pam
+   60  sudo a2enmod auth_basic
+   61  sudo systemctl restart apache2
+   62  sudo mkdir -p /var/www/private_files
+   63  sudo chown -R www-data:www-data /var/www/private_files
+   64  sudo chmod -R 750 /var/www/private_files
+   65  sudo nano /etc/apache2/sites-available/private-files.conf
+   66  sudo mkdir -p /var/www/html/error
+   67  echo "Access Denied" | sudo tee /var/www/html/error/no_access.html
+   68  sudo a2enmod authnz_pam
+   69  sudo a2enmod auth_basic
+   70  sudo systemctl restart apache2
+   71  sudo rm /etc/apache2/sites-available/private-files.conf
+   72  sudo rm /etc/apache2/sites-enabled/private-files.conf
+   73  sudo a2dissite private-files.conf
+   74  sudo rm -rf /var/www/private_files
+   75  sudo apt-get remove --purge libapache2-mod-authnz-pam
+   76  sudo apt-get autoremove
+   77  sudo a2dismod authnz_pam
+   78  sudo a2dismod auth_basic
+   79  yes, do as I say
+   80  sudo a2dismod auth_basic
+   81  sudo systemctl reload apache2
+   82  sudo apt-get update
+   83  sudo apt-get install libapache2-mod-authnz-pam apache2-utils
+   84  sudo mkdir -p /var/www/private_files
+   85  sudo chown -R www-data:www-data /var/www/private_files
+   86  sudo chmod -R 750 /var/www/private_files
+   87  echo "Sensitive Content" | sudo tee /var/www/private_files/index.html
+   88  sudo nano /etc/pam.d/apache2
+   89  sudo nano /etc/apache2/denied_users.txt
+   90  sudo nano /etc/apache2/sites-available/private-files.conf
+   91  sudo mkdir -p /var/www/html/error
+   92  echo "Access Denied" | sudo tee /var/www/html/error/no_access.html
+   93  sudo a2ensite private-files.conf
+   94  sudo a2enmod authnz_pam
+   95  sudo a2enmod auth_basic
+   96  systemctl reload apache2
+   97  sudo systemctl reload apache2
+   98  sudo a2dissite private-files.conf
+   99  sudo rm /etc/apache2/sites-available/private-files.conf
+  100  sudo rm /etc/apache2/sites-enabled/private-files.conf
+  101  cd ..
+  102  ls
+  103  sites-enabled/
+  104  ls
+  105  sudo rm /etc/apache2/sites-available/private-files.conf
+  106  sudo rm /etc/apache2/sites-enabled/private-files.conf
+  107  sudo rm -rf /var/www/private_files
+  108  sudo rm -rf /var/www/html/error
+  109  ls
+  110  cd sites-enabled/
+  111  ls
+  112  cd ..
+  113  cd sites-available/
+  114  ls
+  115  sudo apt-get remove --purge libapache2-mod-authnz-pam
+  116  sudo apt-get autoremove
+  117  sudo rm /etc/pam.d/apache2
+  118  sudo a2dismod authnz_pam
+  119  sudo a2dismod auth_basic
+  120  sudo apache2ctl -M | grep authnz_pam
+  121  sudo apache2ctl -M | grep auth_basic
+  122  sudo rm /etc/apache2/sites-available/private-files.conf
+  123  sudo rm /etc/apache2/sites-enabled/private-files.conf
+  124  sudo rm -rf /var/www/private_files
+  125  sudo apt-get remove --purge libapache2-mod-authnz-pam
+  126  sudo apt-get autoremove
+  127  sudo rm /etc/pam.d/apache2
+  128  sudo systemctl reload apache2
+  129  +
+  130  sudo systemctl reload apache2
+  131  sudo nano /etc/apache2/sites-available/000-default.conf
+  132  auth required pam_unix.so
+  133  account required pam_unix.so
+  134  auth required pam_unix.so
+  135  /etc/pam.d/apache2
+  136  ls
+  137  sudo apt-get install libapache2-mod-authnz-pam apache2-utils
+  138  auth required pam_unix.so
+  139  sudo systemctl restart apache2
+  140  ls
+  141  nano 000-default.conf 
+  142  sudo nano 000-default.conf 
+  143  sudo systemctl restart apache2
+  144  auth required pam_unix.so
+  145  sudo a2dissite private-files.conf
+  146  sudo apt-get remove --purge libapache2-mod-authnz-pam
+  147  sudo apt-get autoremove
+  148  sudo rm /etc/pam.d/apache2
+  149  sudo a2dismod authnz_pam
+  150  sudo a2dismod auth_basic
+  151  sudo apache2ctl -M
+  152  sudo rm /etc/apache2/sites-available/private-files.conf
+  153  sudo rm /etc/apache2/sites-enabled/private-files.conf
+  154  sudo rm -rf /var/www/private_files
+  155  sudo apachectl configtest
+  156  sudo systemctl reload apache2
+  157  exit
+  158  apache2 -V
+  159  apache2 --version
+  160  systemctl status apache2
+  161  cd /etc/
+  162  ls
+  163  cd apache2/
+  164  ls
+  165  clear
+  166  ls
+  167  rm -rf denied_users.txt 
+  168  sudo rm -rf denied_users.txt 
+  169  cd /var/www
+  170  ls
+  171  cd html/
+  172  ls
+  173  cat index.html 
+  174  cd ..
+  175  ls -al
+  176  cd ..
+  177  ls
+  178  cd /etc/apache2/
+  179  ls
+  180  nano apache2.conf 
+  181  cd sites-available/
+  182  ls
+  183  nano 000-default.conf 
+  184  cd /var/www/html/
+  185  mkddir private_files
+  186  sudo mkdir private_files
+  187  ls
+  188  cd private_files/
+  189  sudo nano pagina.html
+  190  ls
+  191  whoami
+  192  echo $USER
+  193  cd /etc/passwd
+  194  cat /etc/passwd
+  195  clear
+  196  sudo apt-get install libapache2-mod-authnz-external pwauth
+  197  sudo nano /etc/apache2/sites-available/auth-pam.conf
+  198  sudo apache2ctl configtest
+  199  sudo nano /etc/apache2/sites-available/auth-pam.conf
+  200  sudo a2ensite private_files
+  201  sudo a2ensite auth-pam
+  202  sudo systemctl reload apache2
+  203  ifconfig
+  204  whoami
+  205  exit
+  206  sudo touch /etc/apache2/denied_users
+  207  sudo chmod 600 /etc/apache2/denied_users
+  208  echo "valentina" | sudo tee -a /etc/apache2/denied_users
+  209  cat /etc/apache2/denied_users 
+  210  sudo cat /etc/apache2/denied_users 
+  211  echo "juanita" | sudo tee -a /etc/apache2/denied_users
+  212  sudo cat /etc/apache2/denied_users 
+  213  sudo adduser valentina
+  214  sudo adduser juanita
+  215  cd /home/
+  216  sudo chown root:root /etc/apache2/denied_users 
+  217  sudo chmod 644 /etc/apache2/denied_users 
+  218  sudo systemctl restart apache2
+  219  sudo systemctl reload apache2
+  220  sudo nano /etc/pam.d/private_files
+  221  sudo chmod 644 /etc/apache2/denied_users
+  222  sudo chown root:root /etc/apache2/denied_users
+  223  sudo systemctl restart apache2
+  224  cd /etc/pam.d
+  225  sudo vim apache
+  226  sudo nano apache
+  227  ls
+  228  sudo nano apache
+  229  sudo systemctl restart apache2
+  230  nano private_files 
+  231  sudo nano private_files 
+  232  sudo systemctl restart apache2
+  233  sudo systemctl reload apache2
+  234  ls
+  235  ls passwd 
+  236  cd passwd 
+  237  cat passwd
+  238  cat newusers 
+  239  sudo nano private_files 
+  240  sudo rm -rf private_files 
+  241  sudo nano /etc/pam.d/pwauth
+  242  sudo nano /etc/pam.d/private_files
+  243  sudo nano apache 
+  244  sudo nano /etc/pam.d/private_files
+  245  cd /apache2/
+  246  cd /apache2
+  247  cd /etc/apache2/
+  248  ls
+  249  sudo nano denied_users 
+  250  sudo nano /etc/pam.d/private_files
+  251  cd sites-available/
+  252  ls
+  253  nano auth-pam.conf 
+  254  sudo nano /etc/pam.d/pwauth
+  255  sudo systemctl restart apache2
+  256  sudo pwauth
+  257  sudo tail -f /var/log/auth.log
+  258  clear
+  259  exit
+  260  sudo mv ngrok /usr/local/bin
+  261  ls
+  262  cd /etc/
+  263  ls
+  264  cd /usr/
+  265  ls
+  266  ngrok
+  267  ngrok --version
+  268  cd /etc/apt/
+  269  ls
+  270  ngrok config add-authtoken 2lG3aUmZe2db5iMcT3eEyOd1q7R_3NswME9f3k1BAmR4Vc4iV
+  271  netstat -ano | grep
+  272  sudo cat /etc/apache2/ports.conf
+  273  sudo netstat -tuln | grep apache2
+  274  sudo lsof -i -P -n | grep LISTEN | grep apache2
+  275  ngrok http 80
+  276  cd /var/www/html
+  277  ls
+  278  sudo nano index.html 
+  279  sudo systemctl restart apache2
+  280  vagrant share --http 80
+  281  sudo vagrant share --http 80
+  282  ngrok http 80
+  283  cd ..
+  284  ls
+  285  cd html/
+  286  ls
+  287  cd private_files/
+  288  ls
+  289  exit
+  290  sudo systemctl status apache2
+  291  exit
+  292  history
+  293  cd /home/
+  294  git clone https://github.com/TheNotoriousPhilipDev/services.git
+  295  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+  296  cd services/
+  297  ls
+  298  cd HTTP_assignment_2/
+  299  ls
+  300  history > historialcomandosslave.txt
+  301  sudo history > historialcomandosslave.txt
+  302  sudo history | sudo tee historialcomandosslave.txt > /dev/null
+  303  sudo history > sudo tee historialcomandosslave.txt > /dev/null
+  304  history > historialcomandosslave.txt
+  305  history | sudo tee /home/services/HTTP_assignment_2/historialcomandosslave.txt > /dev/null
