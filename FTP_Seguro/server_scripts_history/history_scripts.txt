@@ -1,0 +1,1000 @@
+  760  cd
+  761  sudo mkdir -p /var/www/servicios.com/public_html
+  762  sudo mkdir -p /var/www/servicios.com/inventario
+  763  cd /var/www/
+  764  ls
+  765  cd servicios.com/
+  766  ls
+  767  cd public_html/
+  768  ls
+  769  sudo nano main.html
+  770  cd
+  771  cd /etc/apache2//sites-available/
+  772  ls
+  773  sudo nano servicios.com.conf
+  774  cd
+  775  cd /etc/apache2/
+  776  ls
+  777  ls -al
+  778  sudo htpasswd /etc/apache2/.htpasswd foo
+  779  sudo htpasswd -c /etc/apache2/.htpasswd usuario1
+  780  sudo htpasswd /etc/apache2/.htpasswd usuario2
+  781  sudo htpasswd /etc/apache2/.htpasswd usuario3
+  782  sudo a2ensite servicios.com.conf
+  783  sudo systemctl reload apache2
+  784  cd
+  785  cd /var/www/servicios.com/
+  786  ls
+  787  cd inventario/
+  788  ls
+  789  cd
+  790  ls
+  791  cd /var/www/servicios.com/
+  792  ls
+  793  cd inventario/
+  794  ls
+  795  cd ..
+  796  ls
+  797  cd inventario/
+  798  sudo nano inventario.html
+  799  ls
+  800  cd ..
+  801  cd public_html/
+  802  ls
+  803  cd ..
+  804  sudo systemctl reload apache2
+  805  cd inventario/
+  806  ls
+  807  sudo -i
+  808  cd /var/www/
+  809  ls
+  810  cd html/
+  811  ls
+  812  cd ..
+  813  ls
+  814  sudo apache2ctl -S
+  815  sudo a2ensite servicios.com.conf
+  816  sudo systemctl reload apache2
+  817  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  818  sudo systemctl restart apache2
+  819  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  820  sudo systemctl restart apache2
+  821  ls
+  822  cd servicios.com/
+  823  ls
+  824  cd public_html/
+  825  cd
+  826  cat /etc/apache2/claves
+  827  systemctl restart apache2
+  828  sudo systemctl restart apache2
+  829  cd /etc/apache2/sites-available
+  830  sudo 000-default.conf 
+  831  sudo nano 000-default.conf 
+  832  ls
+  833  sudo nano servicios.com.conf
+  834  cd /etc/bind
+  835  sudo systemctl restart apache2
+  836  cd /etc/bind
+  837  ls
+  838  sudo nano servicios.com.conf
+  839  cd /etc/bind
+  840  ls
+  841  cd /etc/host
+  842  cd
+  843  cd /etct
+  844  cd /etc
+  845  ls
+  846  cd hosts
+  847  sudo nano hosts
+  848  sudo systemctl restart apache2
+  849  sudo nano hosts
+  850  sudo systemctl restart apache2
+  851  sudo nano hosts
+  852  sudo systemctl restart apache2
+  853  sudo nano hosts
+  854  sudo systemctl restart apache2
+  855  sudo nano hosts
+  856  cd /var/www/
+  857  ls
+  858  cd servicios.com/
+  859  [200~sudo nano /etc/apache2/sites-available/servicios.com.conf
+  860  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  861  sudo a2ensite servicios.com.conf
+  862  sudo systemctl reload apache2
+  863  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  864  sudo systemctl reload apache2
+  865  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  866  cd ..
+  867  ls
+  868  cd servicios.com/
+  869  ls
+  870  sudo systemctl reload apache2
+  871  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  872  sudo systemctl reload apache2
+  873  ls
+  874  sudo mkdir inventariohtaccessing
+  875  cd inventariohtaccessing/
+  876  sudo nano htaccesingwebsite.html
+  877  sudo systemctl reload apache2
+  878  ls
+  879  pwd
+  880  cd var/www/
+  881  cd /var/www/
+  882  ls
+  883  cd servicios.com/
+  884  ls
+  885  ls -al
+  886  cd ..
+  887  ls
+  888  cd
+  889  cd /etc/bind
+  890  ls
+  891  sudo nano db.servicios.com 
+  892  sudo nano named.conf.local 
+  893  systemctl restart bind0
+  894  sudo systemctl restart bind9
+  895  cd /etc/apache2/sites-available/
+  896  ls
+  897  a2ensite servicios.com.conf 
+  898  sudo a2dissite 000-default.conf 
+  899  system reload apache2
+  900  sudo systemctl reload apache2
+  901  sudo systemctl restart apache2
+  902  cd
+  903  sudo -i
+  904  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess
+  905  sudo systemctl restart apache2
+  906  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess
+  907  cd /var/www/servicios.com/
+  908  ls
+  909  cd inventariohtaccessing/
+  910  cd ..
+  911  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess
+  912  ls
+  913  cd public_html/
+  914  ls
+  915  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess
+  916  cd ..
+  917  ls
+  918  cd inventariohtaccessing/
+  919  ls
+  920  sudo nano /var/www/servicios.com/private/.htaccess
+  921  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess 
+  922  cd /etc/apache2
+  923  ls
+  924  sudo nano apache2.conf 
+  925  sudo htpasswd -c /var/www/servicios.com/inventariohtaccessing/.htpasswd usuario4
+  926  sudo nano /var/www/servicios.com/inventariohtaccessing/.htaccess
+  927  cd /etc/apache2
+  928  sudo nano apache2.conf 
+  929  sudo systemctl restart apache2
+  930  sudo mkdir -p /var/www/miotrositio.com/public_html
+  931  sudo touch /var/www/miotrositio.com/public_html/index.html
+  932  cd /var/www/
+  933  ls
+  934  cd miotrositio.com/
+  935  ls
+  936  cd ..
+  937  cd servicios.com
+  938  ls
+  939  cd ..
+  940  cd miotrositio.com
+  941  ls
+  942  cd public_html/
+  943  ls
+  944  sudo nano index.html 
+  945  sudo nano /etc/apache2/sites-available/miotrositio.com.conf
+  946  cd /var/www
+  947  ls
+  948  cd /etc/bind
+  949  sudo nano db.servicios.com 
+  950  cp db.servicios.com db.miotrositio.com
+  951  sudo cp db.servicios.com db.miotrositio.com
+  952  sudo nano db.miotrositio.com 
+  953  sudo nano named.conf.local 
+  954  ls
+  955  systemctl restart bind9
+  956  sudo systemctl restart bind9
+  957  cd /etc/apache2/sites-available/
+  958  ls
+  959  a2ensite miotrositio.com.conf 
+  960  sudo a2ensite miotrositio.com.conf 
+  961  sudo a2dissite 000-default.conf 
+  962  systemctl reload apache2
+  963  sudo systemctl reload apache2
+  964  ls
+  965  cd ..
+  966  cd sites-enabled/
+  967  ls
+  968  systemctl restart apache2
+  969  sudo systemctl restart apache2
+  970  cd
+  971  sudo a2enmod userdir
+  972  systemctl restart apache2
+  973  sudo systemctl restart apache2
+  974  sudo a2enmod userdir
+  975  sudo nano /etc/apache2/mods-enabled/userdir.conf
+  976  sudo mkdir -p /home/pedro/public_html
+  977  sudo mkdir -p /home/maria/public_html
+  978  sudo mkdir -p /home/juan/public_html
+  979  cd /home/pedro/public_html/
+  980  ls
+  981  sudo nano pedro.html
+  982  cd ..
+  983  cd maria/
+  984  ls
+  985  cd public_html/
+  986  sudo nano maria.html
+  987  cd
+  988  cd /home/juan
+  989  ls
+  990  cd public_html/
+  991  sudo nano juan.html
+  992  cd 
+  993  sudo chown -R pedro:pedro /home/pedro/public_html
+  994  sudo chown -R maria:maria /home/maria/public_html
+  995  sudo chown -R juan:juan /home/juan/public_html
+  996  sudo adduser pedro
+  997  sudo adduser maria
+  998  sudo adduser juan
+  999  sudo chown -R pedro:pedro /home/pedro/public_html
+ 1000  sudo chown -R maria:maria /home/maria/public_html
+ 1001  sudo chown -R juan:juan /home/juan/public_html
+ 1002  sudo a2enmod userdir
+ 1003  sudo systemctl restart apache2
+ 1004  sudo ls -l /home/pedro/public_html
+ 1005  sudo ls -l /home/maria/public_html
+ 1006  sudo ls -l /home/juan/public_html
+ 1007  exit
+ 1008  cd /etc/apache2/
+ 1009  ls
+ 1010  sudo nano apache2.conf 
+ 1011  cd /var/www
+ 1012  ls
+ 1013  cd servicios.com/
+ 1014  ls
+ 1015  cd public_html/
+ 1016  ls
+ 1017  sudo nano main.html
+ 1018  sudo systemctl restart apache2
+ 1019  sudo nano /etc/apache2/sites-available/servicios.com.conf
+ 1020  sudo nano /etc/apache2/
+ 1021  cd /etc/apache2/
+ 1022  ls
+ 1023  sudo nano apache2.conf 
+ 1024  sudo nano sites-available/
+ 1025  sudo nano sites-enabled/
+ 1026  cd sites-available/
+ 1027  ls
+ 1028  sudo nano servicios.com.conf 
+ 1029  sudo nano miotrositio.com.conf 
+ 1030  cd
+ 1031  system reload apache2
+ 1032  systemctl reload apache2
+ 1033  sudo systemctl reload apache2
+ 1034  clear
+ 1035  ls
+ 1036  cd /etc/
+ 1037  ls
+ 1038  sudo nano resolv.conf 
+ 1039  cat hosts
+ 1040  cd apache2/
+ 1041  ls
+ 1042  nano apache2.conf 
+ 1043  cd ..
+ 1044  cd bind
+ 1045  ls
+ 1046  sudo nano db.servicios.com 
+ 1047  sudo nano db.miotrositio.com 
+ 1048  cat db.servicios.com && cat db.miotrositio.com 
+ 1049  cat named.conf
+ 1050  sudo nano named.conf
+ 1051  sudo nano named.conf.local 
+ 1052  sudo nano named.conf.default-zones 
+ 1053  ls
+ 1054  sudo nano /etc/bind/named.conf.local
+ 1055  sudo systemctl status bind9
+ 1056  sudo systemctl restart bind9
+ 1057  sudo nano /etc/resolv.conf
+ 1058  sudo named-checkzone servicios.com /etc/bind/db.servicios.com
+ 1059  sudo named-checkzone miotrositio.com /etc/bind/db.miotrositio.com
+ 1060  sudo ufw allow 53/tcp
+ 1061  sudo ufw allow 53/udp
+ 1062  cd ..
+ 1063  ls
+ 1064  sudo nano /etc/bind/
+ 1065  cd bind
+ 1066  ls
+ 1067  cd ..
+ 1068  cd apache2/
+ 1069  ls
+ 1070  cd apache2.conf 
+ 1071  nano apache2.conf 
+ 1072  ls
+ 1073  sudo nano sites-available/
+ 1074  cd sites-available/
+ 1075  ls
+ 1076  sudo nano miotrositio.com.conf 
+ 1077  nano 000-default.conf 
+ 1078  sudo nano servicios.com.conf 
+ 1079  sudo nano miotrositio.com.conf 
+ 1080  sudo nano servicios.com.conf 
+ 1081  sudo nano miotrositio.com.conf 
+ 1082  sudo systemctl restart bind9
+ 1083  ls
+ 1084  apache2 -v
+ 1085  sudo nano servicios.com.conf 
+ 1086  sudo systemctl restart bind9
+ 1087  sudo nano servicios.com.conf 
+ 1088  sudo systemctl restart bind9
+ 1089  sudo nano miotrositio.com.conf 
+ 1090  cd /var/www/
+ 1091  ls
+ 1092  cd miotrositio.com/
+ 1093  ls
+ 1094  cd public_html/
+ 1095  ls
+ 1096  cat index.html 
+ 1097  cd ..
+ 1098  cd miotrositio.com/public_html/
+ 1099  ls
+ 1100  cd ..
+ 1101  ls
+ 1102  cd servicios.com/
+ 1103  ls
+ 1104  cd public_html/
+ 1105  ls
+ 1106  cd ..
+ 1107  miotrositio.com/
+ 1108  cd miotrositio.com/
+ 1109  ls
+ 1110  cd public_html/
+ 1111  ls
+ 1112  mv index.html optional.html
+ 1113  sudo mv index.html optional.html
+ 1114  ls
+ 1115  systemctl restart bind9
+ 1116  sudo systemctl restart bind9
+ 1117  sudo systemctl restart apache2
+ 1118  sudo systemctl status apache2
+ 1119  sudo nano /etc/apache2/sites-enabled/servicios.com.conf
+ 1120  sudo systemctl status apache2
+ 1121  sudo systemctl restart apache2
+ 1122  sudo systemctl status apache2
+ 1123  sudo chmod 777 /var/www/miotrositio.com/public_html/optional.html 
+ 1124  sudo systemctl restart apache2
+ 1125  cd /etc/apache2/
+ 1126  ls
+ 1127  cd apache2.conf 
+ 1128  sudo nano apache2.conf 
+ 1129  cd sites-available/
+ 1130  ls
+ 1131  pwd
+ 1132  sudo nano miotrositio.com.conf 
+ 1133  cd /etc/bind
+ 1134  ls
+ 1135  sudo nano db.miotrositio.com 
+ 1136  sudo nano db.servicios.com 
+ 1137  sudo systemctl restart apache2
+ 1138  sudo systemctl restart bind9
+ 1139  cd ..
+ 1140  cd apache2/
+ 1141  ls
+ 1142  cat apache2.conf 
+ 1143  clear
+ 1144  ls
+ 1145  sudo nano apache2.conf 
+ 1146  sudo nano conf-available/
+ 1147  cd sites-available
+ 1148  ls
+ 1149  sudo nano miotrositio.com.conf 
+ 1150  sudo nano servicios.com.conf 
+ 1151  cd ..
+ 1152  cd sites-enabled/
+ 1153  ls
+ 1154  sudo nano servicios.com.conf 
+ 1155  sudo nano miotrositio.com.conf 
+ 1156  ls
+ 1157  cd ..
+ 1158  cd sites-available/
+ 1159  ls
+ 1160  sudo nano miotrositio.com.conf 
+ 1161  sudo nano servicios.com.conf 
+ 1162  cd ..
+ 1163  cd sites-enabled/
+ 1164  ls
+ 1165  sudo nano miotrositio.com.conf 
+ 1166  cd ..
+ 1167  sudo systemctl restart apache2
+ 1168  cd /var/www/
+ 1169  ls
+ 1170  cd miotrositio.com/
+ 1171  ls
+ 1172  cd public_html/
+ 1173  ls
+ 1174  cd ..s
+ 1175  cd ..
+ 1176  cd servicios.com/
+ 1177  ls
+ 1178  cd inventario
+ 1179  ls
+ 1180  cd ..
+ 1181  cd /etc/apache2/
+ 1182  ls
+ 1183  sudo nano apache2.conf 
+ 1184  cd sites-available/
+ 1185  ls
+ 1186  sudo nano miotrositio.com.conf 
+ 1187  sudo nano servicios.com.conf 
+ 1188  ls
+ 1189  sudo a2dissite 000-default.conf
+ 1190  sudo systemctl reload apache2
+ 1191  sudo apachectl configtest
+ 1192  sudo systemctl reload apache2
+ 1193  clear
+ 1194  ls
+ 1195  sudo apachectl configtest
+ 1196  sudo systemctl reload apache2
+ 1197  sudo nano /etc/apache2/apache2.conf
+ 1198  sudo systemctl restart apache2
+ 1199  sudo a2ensite servicios.com.conf
+ 1200  sudo a2ensite miotrositio.com.conf
+ 1201  sudo systemctl reload apache2
+ 1202  sudo nano /var/www/servicios.com/
+ 1203  cd /var/www/servicios.com/
+ 1204  ls
+ 1205  sudo chown -R www-data:www-data /var/www/servicios.com
+ 1206  sudo chown -R www-data:www-data /var/www/miotrositio.com
+ 1207  sudo systemctl reload apache2
+ 1208  ls
+ 1209  cd inventario
+ 1210  ls
+ 1211  cd ../inventariohtaccessing/
+ 1212  ls
+ 1213  cd ../public_html/
+ 1214  ls
+ 1215  cd ..
+ 1216  cd miotrositio.com/
+ 1217  ls
+ 1218  cd public_html/
+ 1219  ls
+ 1220  cd /etc/apache2/sites-available/
+ 1221  ls
+ 1222  sudo nano anotherdomain.com.conf 
+ 1223  sudo nano servicios.com.conf 
+ 1224  clear
+ 1225  ls
+ 1226  sudo nano miotrositio.com.conf 
+ 1227  sudo nano servicios.com.conf 
+ 1228  cd ..
+ 1229  ls
+ 1230  cd sites-enabled/
+ 1231  ls
+ 1232  cd var/www
+ 1233  cd
+ 1234  cd /var/www/
+ 1235  ls
+ 1236  cd servicios.com/
+ 1237  ls
+ 1238  ls -l /var/www/html
+ 1239  cd
+ 1240  cd /var/www/
+ 1241  ls
+ 1242  cd html/
+ 1243  ls
+ 1244  cd /var/www/html
+ 1245  ls /var/www/html
+ 1246  cd
+ 1247  ls -l /var/www/html
+ 1248  clear
+ 1249  cd /etc/apache2/
+ 1250  ls
+ 1251  cd sites-available/
+ 1252  l
+ 1253  la
+ 1254  nano miotrositio.com.conf 
+ 1255  nano servicios.com.conf 
+ 1256  cd /var/www
+ 1257  ls
+ 1258  cd servicios.com/
+ 1259  ls
+ 1260  cd public_html/
+ 1261  ls
+ 1262  cd /etc/apache2/
+ 1263  ls
+ 1264  nano apache2.conf 
+ 1265  grep -r DirectoryIndex *
+ 1266  ls
+ 1267  exit
+ 1268  sudo apt update
+ 1269  sudo nano /etc/nginx/sites-available/domain-name.com
+ 1270  sudo nano /etc/nginx/sites-available/www.ejercicio.com
+ 1271  cd /etc/bind
+ 1272  ls
+ 1273  nano db.miotrositio.com 
+ 1274  nano named.conf
+ 1275  nano named.conf
+ 1276  nano named.conf.local 
+ 1277  sudo nano named.conf.local 
+ 1278  sudo cp db.servicios.com db.ejercicio.com
+ 1279  sudo nano named.conf.local 
+ 1280  sudo nano db.ejercicio.com 
+ 1281  sudo nano db.ejercicio.com 
+ 1282  sudo named-checkzone ejercicio.com /etc/bind/zones/db.ejercicio.com
+ 1283  sudo systemctl status bind9
+ 1284  clear
+ 1285  ls
+ 1286  nano db.ejercicio.com 
+ 1287  sudo nano named.conf
+ 1288  sudo nano named.conf.local 
+ 1289  sudo nano db.ejercicio.com 
+ 1290  sudo named-checkzone ejercicio.com /etc/bind/db.ejercicio.com
+ 1291  sudo systemctl restart bind9
+ 1292  exit
+ 1293  cd /etc/bind
+ 1294  ls
+ 1295  cat db.ejercicio.com
+ 1296  exit
+ 1297  sudo apt list openssl --installed
+ 1298  sudo openssl version
+ 1299  sudo apache2ctl-M | grep ssl
+ 1300  sudo systemctl status apache2
+ 1301  sudo apache2ctl-M | grep ssl
+ 1302  sudo apache2ctl -M | grep ssl
+ 1303  sudo a2enmod ssl
+ 1304  sudo systemctl restart apache2
+ 1305  sudo a2enmod ssl
+ 1306  sudo apache2ctl -M | grep ssl
+ 1307  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+ 1308  cd /etc/apache2/
+ 1309  cd sites-available/
+ 1310  ls
+ 1311  sudo nano servicios.com.conf 
+ 1312  a2ensite servicios.com.conf 
+ 1313  apache2 configtest
+ 1314  apache2ctl configtest
+ 1315  cd ..
+ 1316  cd sites-enabled/
+ 1317  ls
+ 1318  sudo nano servicios.com.conf 
+ 1319  apache2ctl configtest
+ 1320  sudo nano servicios.com.conf 
+ 1321  cd ..
+ 1322  cd sites-available/
+ 1323  ls
+ 1324  sudo nano servicios.com.conf 
+ 1325  apache2ctl configtest
+ 1326  sudo nano servicios.com.conf 
+ 1327  cat servicios.com.conf 
+ 1328  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+ 1329  ls -l /etc/ssl/private/apache-selfsigned.key
+ 1330  sudo ls -l /etc/ssl/private/apache-selfsigned.key
+ 1331  sudo chmod 600 /etc/ssl/private/apache-selfsigned.key
+ 1332  sudo chown root:root /etc/ssl/private/apache-selfsigned.key
+ 1333  nano /etc/apache2/apache2.conf
+ 1334  apache2ctl configtest
+ 1335  sudo rm -f /etc/ssl/private/apache-selfsigned.key
+ 1336  sudo rm -f /etc/ssl/certs/apache-selfsigned.crt
+ 1337  sudo rm -f /etc/apache2/sites-available/servicios.com.conf
+ 1338  sudo rm -f /etc/apache2/sites-enabled/servicios.com.conf
+ 1339  sudo a2dismod ssl
+ 1340  sudo a2dissite servicios.com.conf
+ 1341  ls
+ 1342  sudo systemctl restart apache2
+ 1343  sudo apache2ctl configtest
+ 1344  clear
+ 1345  cd
+ 1346  sudo apt list openssl --installed
+ 1347  sudo a2enmod ssl
+ 1348  sudo systemctl restart apache2
+ 1349  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+ 1350  sudo nano /etc/apache2/sites-available/servi
+ 1351  cd /etc/apache2/sites-available/
+ 1352  sudo a2ensite servicios.com.conf
+ 1353  sudo systemctl reload apache2
+ 1354  sudo apache2ctl configtest
+ 1355  sudo systemctl reload apache2
+ 1356  ufw status
+ 1357  sudo ufw status
+ 1358  sudo ufw allow "Apache Full"
+ 1359  sudo ufw status
+ 1360  exit
+ 1361  cd /etc/apache2/sites-available/
+ 1362  ls
+ 1363  nano servicios.com.conf
+ 1364  sudo systemctl status apache2
+ 1365  ls
+ 1366  sudo nano servicios.com.conf 
+ 1367  cd /var/www/
+ 1368  ls
+ 1369  cd servicios.com/
+ 1370  ls
+ 1371  cd ..
+ 1372  cd html/
+ 1373  ls
+ 1374  cat index.html 
+ 1375  cd /etc/apache2/sites-available/
+ 1376  nano servicios.com.conf 
+ 1377  ls
+ 1378  cd ..
+ 1379  ls
+ 1380  nano claves 
+ 1381  cd sites-enabled/
+ 1382  ls
+ 1383  cat servicios.com.conf 
+ 1384  clear
+ 1385  cd ..
+ 1386  ls
+ 1387  cd conf-enabled/
+ 1388  ls
+ 1389  cd ..
+ 1390  ls
+ 1391  cd ..
+ 1392  clear
+ 1393  cd /bind9
+ 1394  cd /bind9/
+ 1395  l
+ 1396  ls
+ 1397  cd /bind
+ 1398  cd /bind/
+ 1399  ls
+ 1400  cd bind
+ 1401  ls
+ 1402  nano db.servicios.com 
+ 1403  nano db.ejercicio.com 
+ 1404  nano db.servicios.com 
+ 1405  clear
+ 1406  ls
+ 1407  cat db.servicios.com 
+ 1408  cat db.ejercicio.com 
+ 1409  cd /var/www/
+ 1410  ls
+ 1411  cd servicios.com/
+ 1412  ls
+ 1413  cd ..
+ 1414  cd html/
+ 1415  ls
+ 1416  cat index.html 
+ 1417  sudo systemctl restart apache2
+ 1418  exit
+ 1419  cd /etc/apache2/
+ 1420  ls
+ 1421  cd sites-available/
+ 1422  ls
+ 1423  nano servicios.com.conf
+ 1424  clear
+ 1425  exit
+ 1426  sudo ufw status
+ 1427  sudo ufw allow ssh
+ 1428  sudo ufw enable
+ 1429  sudo ufw status
+ 1430  sudo nano /etc/default/ufw
+ 1431  sudo nano /etc/ufw/sysctl.conf 
+ 1432  sudo nano /etc/ufw/before.rules 
+ 1433  sudo ufw disable && sudo ufw enable
+ 1434  sudo ufw allow 'Nginx Full'
+ 1435  sudo ufw allow Nginx Full
+ 1436  sudo ufw app list
+ 1437  sudo ufw allow 80/tcp   # HTTP traffic
+ 1438  sudo ufw allow 443/tcp  # HTTPS traffic
+ 1439  cd /var/www/
+ 1440  ls
+ 1441  cd html/
+ 1442  ls
+ 1443  cd index.html 
+ 1444  cat index.html 
+ 1445  sudo a2enmod proxy
+ 1446  sudo a2enmod proxy_http
+ 1447  sudo systemctl restart apache2
+ 1448  cd /etc/apache2/sites-available/
+ 1449  ls
+ 1450  nano servicios.com.conf 
+ 1451  nano default-ssl.conf 
+ 1452  sudo systemctl stop apache2
+ 1453  sudo systemctl status apache2
+ 1454  sudo systemctl run apache2
+ 1455  sudo systemctl enable  apache2
+ 1456  sudo systemctl status apache2
+ 1457  sudo systemctl start apache2
+ 1458  sudo systemctl status apache2
+ 1459  sudo ufw delete allow 80
+ 1460  sudo ufw delete allow 443
+ 1461  sudo ufw allow 'Apache Full'
+ 1462  sudo ufw status
+ 1463  sudo nano /etc/ufw/sysctl.conf 
+ 1464  sudo nano /etc/ufw/before.rules 
+ 1465  sudo ufw reload
+ 1466  sudo ufw status
+ 1467  exit
+ 1468  sudo ufw deny 21
+ 1469  sudo ufw deny 20
+ 1470  sudo ufw allow 443
+ 1471  sudo ufw status
+ 1472  sudo ufw reload
+ 1473  exit
+ 1474  clear
+ 1475  htop
+ 1476  clear
+ 1477  cd /etc/apache2/
+ 1478  ls
+ 1479  cd
+ 1480  cd /var/www/
+ 1481  ls
+ 1482  cd servicios.com/ç
+ 1483  cd servicios.com/
+ 1484  ls
+ 1485  cat public_html/
+ 1486  cd public_html/
+ 1487  ls
+ 1488  cat main.html 
+ 1489  cd
+ 1490  sudo ufw status numbered
+ 1491  sudo ufw allow http
+ 1492  sudo ufw status numbered
+ 1493  sudo systemctl status nginx
+ 1494  exit
+ 1495  sudo ufw status numbered
+ 1496  exit
+ 1497  sudo ufw status numbered
+ 1498  cd /etc/ufw/before.rules 
+ 1499  nano /etc/ufw/before.rules 
+ 1500  sudo nano /etc/ufw/before.rules 
+ 1501  sudo systemctl reload apache2
+ 1502  sudo ufw disable "Apache Full"
+ 1503  sudo ufw disable
+ 1504  sudo ufw enable
+ 1505  sudo systemctl restart apache2
+ 1506  exit
+ 1507  clear
+ 1508  sudo nano /etc/ufw/before.rules 
+ 1509  sudo ufw status numbered
+ 1510  sudo nano /etc/ufw/sysctl.conf 
+ 1511  sudo nano /etc/ufw/before.rules 
+ 1512  clear
+ 1513  sudo ufw status numbered
+ 1514  sudo nano /etc/ufw/sysctl.conf 
+ 1515  sudo nano /etc/ufw/before.rules 
+ 1516  exit
+ 1517  ifconfig
+ 1518  clear
+ 1519  sudo ufw status
+ 1520  sudo ufw allow 21/tcp
+ 1521  sudo nano /etc/ufw/sysctl.conf 
+ 1522  sudo nano /etc/ufw/before.rules
+ 1523  sudo ufw reload
+ 1524  sudo nano /etc/ufw/before.rules
+ 1525  sudo nano /etc/ufw/sysctl.conf 
+ 1526  sudo ufw allow 21/tcp
+ 1527  sudo ufw allow 40000:40010/tcp
+ 1528  sudo ufw status
+ 1529  sudo nano /etc/ufw/sysctl.conf 
+ 1530  sudo nano /etc/ufw/before.rules
+ 1531  exit
+ 1532  sudo ufw status
+ 1533  sudo ufw reset
+ 1534  sudo ufw allow ssh
+ 1535  sudo ufw enable
+ 1536  cd /etc/ufw/before.rules
+ 1537  sudo nano /etc/ufw/before.rules
+ 1538  cd /etc/ufw/
+ 1539  ls
+ 1540  nano ufw.conf 
+ 1541  nano sysctl.conf 
+ 1542  sudo ufw allow 20:21/tcp
+ 1543  sudo ufw allow 30000:31000/tcp
+ 1544  sudo ufw status
+ 1545  exit
+ 1546  sudo ufw status
+ 1547  exit
+ 1548  sudo ufw status
+ 1549  sudo ufw reset
+ 1550  sudo nano /etc/ufw/before.rules
+ 1551  sudo ufw allow ssh
+ 1552  sudo ufw status
+ 1553  sudo ufw enable
+ 1554  sudo nano /etc/ufw/before.rules
+ 1555  sudo ufw enable
+ 1556  sudo ufw status
+ 1557  sudo ufw allow 20,21,990/tcp
+ 1558  sudo nano /etc/ufw/sysctl.conf 
+ 1559  sudo ufw allow 40000:50000/tcp
+ 1560  sudo ufw status
+ 1561  sudo nano /etc/ufw/before.rules
+ 1562  sudo ufw reload
+ 1563  sudo nano /etc/ufw/before.rules
+ 1564  sudo ufw status
+ 1565  sudo ufw reload
+ 1566  sudo ufw enable
+ 1567  sudo ufw status
+ 1568  sudo ufw reload
+ 1569  cat /etc/ufw/before.rules
+ 1570  sudo cat /etc/ufw/before.rules
+ 1571  clear
+ 1572  sudo nano /etc/ufw/before.rules
+ 1573  sudo ufw reload
+ 1574  sudo ufw status
+ 1575  sudo ufw reload
+ 1576  sudo ufw enable
+ 1577  sudo ufw reload
+ 1578  sudo ufw status
+ 1579  exit
+ 1580  sudo ufw status
+ 1581  sudo nano /etc/ufw/before.rules
+ 1582  sudo nano /etc/ufw/sysctl.conf 
+ 1583  sudo tcpdump -i eth0 port 21
+ 1584  sudo nano /etc/ufw/after.rules
+ 1585  sudo nano /etc/ufw/before.rules
+ 1586  sudo ufw allow 40000:50000/tcp
+ 1587  sudo ufw status
+ 1588  sudo tcpdump -i eth0 port 21 or portrange 40000-50000
+ 1589  sudo cat /etc/ufw/before.rules
+ 1590  sudo iptables -L -v -n
+ 1591  sudo ufw status
+ 1592  sudo sysctl net.ipv4.ip_forward
+ 1593  sudo ufw allow 21/tcp
+ 1594  sudo ufw disable
+ 1595  sudo ufw enable
+ 1596  sudo ufw status
+ 1597  sudo tcpdump -i eth0 port 21 or portrange 40000-50000 -vvv
+ 1598  sudo ufw status
+ 1599  sudo ufw disable
+ 1600  sudo ufw reset
+ 1601  sudo ufw allow “OpenSSH”
+ 1602  sudo ufw enable
+ 1603  sudo ufw allow ssh
+ 1604  sudo ufw allow ftp
+ 1605  sudo ufw allow 21/tcp
+ 1606  sudo ufw allow 20/tcp
+ 1607  sudo ufw allow 40000:50000/tcp
+ 1608  sudo ufw reload
+ 1609  sudo ufw status
+ 1610  sudo nano /etc/ufw/before.rules
+ 1611  sudo ufw allow 990/tcp
+ 1612  sudo ufw status
+ 1613  sudo iptables -L
+ 1614  iptables -I INPUT -p tcp -m tcp --dport 21 -j ACCEPT
+ 1615  iptables -I INPUT -p tcp -m tcp -m multiport --dports 40000:50000 -j ACCEPT
+ 1616  iptables-save
+ 1617  sudo iptables -I INPUT -p tcp -m tcp --dport 21 -j ACCEPT
+ 1618  sudo iptables -I INPUT -p tcp -m tcp -m multiport --dports 40000:50000 -j ACCEPT
+ 1619  sudo iptables-save
+ 1620  sudo ufw status
+ 1621  sudo nano /etc/ufw/before.rules
+ 1622  exit
+ 1623  sudo nano /etc/ufw/before.rules
+ 1624  sudo ufw reset
+ 1625  sudo ufw enable
+ 1626  sudo ufw allow ssh
+ 1627  sudo ufw allow 20:21/tcp
+ 1628  sudo nano /etc/ufw/before.rules
+ 1629  sudo ufw reload
+ 1630  sudo nano /etc/ufw/before.rules
+ 1631  sudo ufw reload
+ 1632  sudo ufw enabled 
+ 1633  sudo ufw enable
+ 1634  sudo ufw status
+ 1635  sudo ufw reload
+ 1636  sudo ufw status
+ 1637  sudo nano /etc/ufw/before.rules
+ 1638  sudo ufw allow 30000:31000/tcp
+ 1639  sudo nano /etc/default/ufw 
+ 1640  sudo nano /etc/ufw/before.rules
+ 1641  sudo ufw disable && sudo ufw enable
+ 1642  sudo ufw status
+ 1643  sudo nano /etc/vsftpd.conf 
+ 1644  sudo ufw status
+ 1645  sudo nano /etc/ufw/before.rules
+ 1646  sudo ufw status
+ 1647  sudo ufw disable && sudo ufw enable
+ 1648  sudo cat /etc/ufw/before.rules
+ 1649  exit
+ 1650  sudo ufw status
+ 1651  exit
+ 1652  sudo nano /etc/ufw/before.rules
+ 1653  sudo cat /etc/ufw/before.rules
+ 1654  sudo ufw status
+ 1655  sudo cat /etc/ufw/before.rules
+ 1656  exit
+ 1657  cd /etc/bind
+ 1658  ls
+ 1659  nano db.servicios.com
+ 1660  nano gomez.net.db
+ 1661  nano db.ejercicio.com 
+ 1662  nano db.servicios.com 
+ 1663  exit
+ 1664  cd /etc/bind
+ 1665  sudo cat named.conf.local 
+ 1666  ls
+ 1667  cat db.miotrositio.com 
+ 1668  exit
+ 1669  sudo ufw status
+ 1670  sudo nano /etc/ufw/before.rules
+ 1671  exit
+ 1672  sudo nano /etc/ufw/before.rules
+ 1673  cd /home
+ 1674  ls
+ 1675  git clone https://github.com/TheNotoriousPhilipDev/services.git
+ 1676  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+ 1677  git branch
+ 1678  ls
+ 1679  sudo ls
+ 1680  sudo -i
+ 1681  clear
+ 1682  ls
+ 1683  cd services/
+ 1684  ls
+ 1685  git branch
+ 1686  sudo git branch
+ 1687  sudo git checkout 2_corte
+ 1688  git branch
+ 1689  sudo git branch
+ 1690  sudo git pull origin 2_corte
+ 1691  pwd
+ 1692  ls
+ 1693  sudo git branch
+ 1694  sudo rm -rf FTP_assignment_1/
+ 1695  sudo rm -rf HTTP_assignment_2/
+ 1696  sudo rm -rf WorkingEnvironment_assignment_0/
+ 1697  ls
+ 1698  sudo git branch
+ 1699  sudo git checkout main
+ 1700  ls
+ 1701  sudo git branch
+ 1702  ls -al
+ 1703  git restore .
+ 1704  sudo git restore .
+ 1705  ls
+ 1706  git checkout 2_corte
+ 1707  sudo git checkout 2_corte
+ 1708  ls
+ 1709  rm -rf FTP_assignment_1
+ 1710  sudo rm -rf FTP_assignment_1
+ 1711  sudo git add .
+ 1712  sudo git commit -m "old dirs deleted"
+ 1713  ls
+ 1714  git checkout main
+ 1715  sudo git checkout main
+ 1716  ls
+ 1717  sudo git checkout 2_corte
+ 1718  ls
+ 1719  sudo rm -rf HTTP_assignment_2/ WorkingEnvironment_assignment_0/
+ 1720  sudo git add .
+ 1721  sudo git commit -m "old dirs removed"
+ 1722  ls
+ 1723  sudo rm -rf README.md 
+ 1724  sudo git add .
+ 1725  sudo git commit -m "cleaning up"
+ 1726  mkdir ftp_seguro
+ 1727  sudo mkdir ftp_seguro
+ 1728  ls
+ 1729  sudo mv ftp_seguro/ FTP_Seguro
+ 1730  ls
+ 1731  cd FTP_Seguro/
+ 1732  sudo mkdir config_files
+ 1733  sudo cp /etc/ufw/before.rules /home/services/FTP_Seguro/config_files/befores.rules.txt
+ 1734  ls
+ 1735  cd config_files/
+ 1736  ls
+ 1737  cat befores.rules.txt 
+ 1738  sudo cat befores.rules.txt 
+ 1739  sudo cp /etc/default/ufw /home/services/FTP_Seguro/config_files/default_ufw.txt
+ 1740  sudo cat default_ufw.txt 
+ 1741  sudo cp /etc/ufw/sysctl.conf /home/services/FTP_Seguro/config_files/sysctl.conf.txt
+ 1742  git add .
+ 1743  sudo git add .
+ 1744  sudo git commit -m "done"
+ 1745  sudo git push 2_corte
+ 1746  sudo git push origin 2_corte
+ 1747  cd ..
+ 1748  sudo mkdir server_scripts_history
+ 1749  cd server_scripts_history/
+ 1750  sudo history > ~/history_scripts.txt
+ 1751  history > ~/history_scripts.txt
+ 1752  ls
+ 1753  history > /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt
+ 1754  sudo history > /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt
+ 1755  history > /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt
+ 1756  sudo chmod u+w /home/services/FTP_Seguro/server_scripts_history/
+ 1757  sudo history > /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt
+ 1758  history > /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt
+ 1759  history | sudo tee /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt > /dev/null
