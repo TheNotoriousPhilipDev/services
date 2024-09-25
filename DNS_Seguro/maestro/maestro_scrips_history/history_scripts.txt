@@ -1,0 +1,78 @@
+    1  sudo apt update
+    2  sudo apt install bind9 bind9utils bind9-doc
+    3  cd /etc/bind
+    4  ls
+    5  sudo nano named.conf
+    6  sudo nano named.conf.local 
+    7  cd zones.rfc1918 
+    8  cat db.local 
+    9  cat db.255 
+   10  sudo cp db.255 db.example.com
+   11  sudo nano db.example.com 
+   12  sudo systemctl restart bind9
+   13  sudo systemctl status bind9
+   14  sudo nano named.conf.local 
+   15  ls
+   16  cat named.conf.local 
+   17  cat db.example.com 
+   18  dig @192.168.50.6 www.example.com
+   19  sudo nano named.conf.local 
+   20  cd /etc/bind
+   21  ls
+   22  cat db.example.com 
+   23  cat named.conf.local 
+   24  sudo nano named.conf.local 
+   25  cat /etc/bind/db.example.com
+   26  sudo nano named.conf.local 
+   27  sudo systemctl restart bind9
+   28  sudo nano db.example.com 
+   29  sudo systemctl restart bind9
+   30  sudo nano db.example.com 
+   31  sudo systemctl restart bind9
+   32  sudo named-checkzone example.com /etc/bind/db.example.com
+   33  sudo named-checkzone db.example.com /etc/bind/db.example.com
+   34  sudo nano db.example.com 
+   35  sudo systemctl restart bind9
+   36  sudo nano db.example.com 
+   37  sudo systemctl restart bind9
+   38  sudo nano named.conf.options 
+   39  exit
+   40  ping 192.168.50.5
+   41  cd /etc/bin
+   42  cd /etc/bind
+   43  ls
+   44  cat db.example.com
+   45  cat named.conf.local 
+   46  sudo systemctl status bind9
+   47  sudo tail -f /var/log/syslog
+   48  cat named.conf.options 
+   49  sudo systemctl restart bind9
+   50  clear
+   51  ls
+   52  sudo tail -f /var/log/syslog | grep named
+   53  named.conf.options
+   54  sudo nano named.conf.options 
+   55  sudo systemctl restart bind9
+   56  sudo nano named.conf.options 
+   57  sudo systemctl restart bind9
+   58  exit
+   59  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+   60  ls
+   61  cd services/
+   62  ls
+   63  sudo git checkout 2_corte
+   64  sudo git branch
+   65  ls
+   66  cd DNS_Seguro/
+   67  ls
+   68  sudo mkdir maestro
+   69  cd maestro/
+   70  sudo mkdir config_files
+   71  sudo mkdir maestro_scrips_history
+   72  cd config_files/
+   73  sudo cp /etc/bind/db.example.com ~/services/DNS_Seguro/maestro/config_files
+   74  sudo cp /etc/bind/named.conf.local ~/services/DNS_Seguro/maestro/config_files
+   75  ls
+   76  cd ..
+   77  cd maestro_scrips_history/
+   78  history | sudo tee ~/services/DNS_Seguro/maestro/maestro_scrips_history/history_scripts.txt > /dev/null
