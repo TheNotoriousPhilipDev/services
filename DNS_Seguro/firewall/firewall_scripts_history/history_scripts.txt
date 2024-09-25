@@ -1,0 +1,141 @@
+    1  exit
+    2  sudo ufw status
+    3  sudo /etc/ufw/sysctl.conf 
+    4  sudo nano /etc/ufw/sysctl.conf 
+    5  sudo nano /etc/ufw/before.rules 
+    6  sudo ufw allow ssh
+    7  sudo ufw enable
+    8  sudo ufw status
+    9  ufw allow in on eth0 to any port 53
+   10  sudo ufw allow in on eth0 to any port 53
+   11  sudo ufw allow out on eth0 to any port 53
+   12  sudo nano /etc/ufw/before.rules 
+   13  sudo ufw status
+   14  sudo ufw disable
+   15  sudo ufw enable
+   16  sudo nano /etc/ufw/before.rules 
+   17  sudo ufw disable
+   18  sudo ufw enable
+   19  sudo nano /etc/ufw/before.rules 
+   20  sudo ufw disable
+   21  sudo ufw enable
+   22  sudo ufw status
+   23  cat /etc/ufw/before.rules 
+   24  sudo cat /etc/ufw/before.rules 
+   25  sudo cat /etc/ufw/sysctl.conf 
+   26  sudo ufw status
+   27  sudo /etc/ufw/before.rules 
+   28  sudo nano /etc/ufw/before.rules 
+   29  sudo ufw disable
+   30  sudo ufw enable
+   31  sudo nano /etc/ufw/before.rules 
+   32  sudo ufw disable
+   33  sudo ufw enable
+   34  sudo ufw disable
+   35  sudo ufw enable
+   36  sudo nano /etc/ufw/before.rules 
+   37  sudo ufw disable
+   38  sudo ufw enable
+   39  sudo nano /etc/ufw/before.rules 
+   40  sudo ufw disable
+   41  sudo ufw enable
+   42  sudo ufw allow 53/tcp
+   43  sudo ufw allow 53/udp
+   44  sudo ufw disable
+   45  sudo ufw enable
+   46  sudo ufw allow from 192.168.2.0/24
+   47  sudo ufw disable
+   48  sudo ufw enable
+   49  sudo ufw status
+   50  sudo cat /etc/ufw/before.rules 
+   51  sudo ufw reload
+   52  sudo iptables -t nat -L -n -v
+   53  sudo cat /etc/ufw/before.rules 
+   54  sudo cat /etc/ufw/sysctl.conf 
+   55  clear 
+   56  sudo nano /etc/ufw/sysctl.conf 
+   57  cd /etc/ufw/
+   58  ls
+   59  nano ufw.conf 
+   60  sudo nano /etc/default/ufw
+   61  sudo ufw reload
+   62  sudo ufw deny in to 192.168.50.4 port 53 proto tcp
+   63  sudo ufw deny in to 192.168.50.4 port 53 proto udp
+   64  sudo ufw deny in to 192.168.50.5 port 53 proto tcp
+   65  sudo ufw deny in to 192.168.50.5 port 53 proto udp
+   66  sudo ufw disable
+   67  sudo ufw enable
+   68  sudo ufw status
+   69  sudo ufw status numbered
+   70  sudo ufw delete 7,8,9,10
+   71  sudo ufw delete 7
+   72  sudo ufw delete 8
+   73  sudo ufw delete 9
+   74  sudo ufw delete 10
+   75  sudo ufw status
+   76  sudo ufw numbered
+   77  sudo ufw status numbered
+   78  sudo ufw delete 7
+   79  sudo ufw status numbered
+   80  sudo ufw delete 7
+   81  sudo ufw status numbered
+   82  sudo ufw reload
+   83  exit
+   84  sudo nano /etc/ufw/ufw.conf 
+   85  sudo nano /etc/default/ufw
+   86  sudo nano /etc/ufw/before.rules 
+   87  ping 192.168.50.5
+   88  sudo ufw status
+   89  sudo ufw disable
+   90  sudo ufw enable
+   91  sudo ufw status
+   92  sudo ufw status verbose
+   93  sudo ufw reload
+   94  sudo ufw status
+   95  sudo nano /etc/ufw/before.rules 
+   96  sudo tail -f /var/log/syslog
+   97  sudo ufw disable
+   98  sudo ufw enable
+   99  sudo nano /etc/ufw/before.rules 
+  100  sudo ufw status
+  101  sudo nano /etc/default/ufw
+  102  clear
+  103  sudo ufw status
+  104  sudo nano /etc/ufw/before.rules 
+  105  sudo cat /etc/ufw/before.rules 
+  106  sudo ufw status verbose
+  107  cat /etc/ufw/before.rules 
+  108  clear
+  109  sudo ufw status verbose
+  110  sudo cat /etc/ufw/before.rules 
+  111  sudo nano /etc/ufw/sysctl.conf 
+  112  sudo nano /etc/default/ufw
+  113  sudo ufw disable
+  114  sudo ufw eanble
+  115  sudo ufw enable
+  116  sudo nano /etc/default/ufw
+  117  sudo ufw disable
+  118  sudo ufw enable
+  119  exit
+  120  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+  121  cd services/
+  122  ls
+  123  sudo git checkout 2_corte
+  124  git branch
+  125  sudo git branch
+  126  ls
+  127  cd DNS_Seguro/
+  128  ls
+  129  sudo mkdir firewall
+  130  cd firewall/
+  131  sudo mkdir config_files
+  132  sudo mkdir firewall_scripts_history
+  133  cd config_files/
+  134  sudo cp /etc/ufw/sysctl.conf ~/services/DNS_Seguro/firewall/config_files
+  135  sudo cp /etc/ufw/before.rules ~/services/DNS_Seguro/firewall/config_files
+  136  sudo cp /etc/default/ufw ~/services/DNS_Seguro/firewall/config_files
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd firewall_scripts_history/
+  141  history | sudo tee ~/services/DNS_Seguro/firewall/firewall_scripts_history/history_scripts.txt > /dev/null
