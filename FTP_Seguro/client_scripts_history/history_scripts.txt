@@ -1,0 +1,944 @@
+    1  sudo -i
+    2  exit
+    3  sudo apt install net-tools
+    4  ifconfig
+    5  ftp 192.168.50.3
+    6  ls
+    7  ftp 192.168.50.3
+    8  ftp 192.168.50.3
+    9  bye
+   10  exit
+   11  ftp 192.168.50.3
+   12  exit
+   13  ftp 192.168.50.3
+   14  cd /etc/
+   15  ls
+   16  cat adduser.conf 
+   17  ftp 192.168.50.3
+   18  clear
+   19  exit
+   20  ftp 192.168.50.3
+   21  exit
+   22  ftp 192.168.50.3
+   23  exit
+   24  ftp 192.168.50.3
+   25  exi
+   26  exit
+   27  ftp 192.168.50.3
+   28  exit
+   29  sudo nano /etc/resolv.conf
+   30  host mail.servicios.com
+   31  nslookup
+   32  exit
+   33  nslookup
+   34  dig @192.168.50.3 ns.servicios.com
+   35  sudo ufw status
+   36  host server.servicios.com 192.168.50.3
+   37  ping ns.servicios.com
+   38  sudo nano /etc/resolv.conf 
+   39  logut
+   40  logout
+   41  host microsoft.com 8.8.8.8
+   42  host server.servicios.com 192.168.50.3
+   43  host microsoft.com 8.8.8.8
+   44  host server.servicios.com 192.168.50.3
+   45  dig @8.8.8.8 microsoft.com
+   46  host microsoft.com 8.8.8.8
+   47  dig @8.8.8.8 microsoft.com
+   48  dig @8.8.8.8 microsoft.comwh
+   49  host www.uao.edu.co
+   50  dig 192.168.50.3 www.uao.edu.co
+   51  dig @192.168.50.3 www.uao.edu.co
+   52  host www.uao.edu.co
+   53  dig @172.67.73.231
+   54  dig @www.uao.edu.co
+   55  dig @8.8.8.8 www.uao.edu.co
+   56  dig @8.8.8.8 uao.edu.co MX
+   57  whois google.com
+   58  sudo apt install whois
+   59  whois google.com
+   60  whois facebook.com
+   61  host 8.8.8.8
+   62  nslookup
+   63  exit
+   64  logout
+   65  sudo nano /etc/resolv.conf
+   66  dig @192.168.3.210 server.gomez.net
+   67  sudo nano /etc/resolv.conf
+   68  dig @192.168.3.210 server.gomez.net
+   69  dig server.gomez.net
+   70  dig web.gomez.net
+   71  ping 192.168.3.210
+   72  dig @192.168.3.210 server.gomez.net
+   73  sudo nano /etc/resolv.conf
+   74  sudo resolvectl dns eth0 192.168.3.210
+   75  sudo systemctl restart systemd-resolved
+   76  resolvectl status
+   77  dig @192.168.3.210 server.gomez.net
+   78  ping 192.168.3.210
+   79  sudo nano /etc/resolv.conf 
+   80  dig @192.168.3.210 server.gmz.net
+   81  dig @192.168.3.210 web.gomez.net
+   82  clear
+   83  exit
+   84  nslookup
+   85  exit
+   86  dig @192.168.3.210 web.gomez.net
+   87  sudo apt install net-tools
+   88  ifconfig
+   89  sudo nano /etc/resolv.conf
+   90  ping 192.168.50.3
+   91  dig @192.168.50.3 server.gomez.net
+   92  dig @server.gomez.net
+   93  host server.gomez.net
+   94  host 192.168.50.3
+   95  dig @192.168.50.3 web.gmz.net
+   96  dig @192.168.50.3 server.gmz.net
+   97  sudo tail -f /var/log/syslog
+   98  host @localhost
+   99  host@localhost
+  100  host localhost
+  101  host ns.gomez.net 192.168.50.3
+  102  host server.gomez.net 192.168.50.3
+  103  host web.gomez.net 192.168.50.3
+  104  host mail.gomez.net 192.168.50.4
+  105  sudo nano resolv.conf
+  106  sudo nano /etc/bind/resolv.conf
+  107  cd /etc/bind/
+  108  sudo nano /etc/resolv.conf 
+  109  host mail.gomez.net
+  110  dig @192.168.50.3 ns.gomez.net
+  111  nslookup
+  112  sudo nano /etc/resolv.conf 
+  113  ping ns.gomez.net
+  114  dig ftp.gomez.net
+  115  host mail.gomez.net
+  116  host web.gomez.net
+  117  host docs.gomez.net
+  118  nslookup -query=TXT docs.gomez.net
+  119  exit
+  120  host docs.gomez.net
+  121  sudo nano /etc/resolv.conf 
+  122  host docs.gomez.net
+  123  nslookup -query=TXT docs.gomez.net
+  124  host web.gomez.net 192.168.50.3
+  125  whois server.gomez.net
+  126  whois 192.168.50.3
+  127  clera
+  128  clear
+  129  dig ftp.gomez.net
+  130  dig docs.gomez.net TXT
+  131  nslookup
+  132  cd /etc/bind/
+  133  sudo nano /etc/resolv.conf 
+  134  whois ns.gomez.net
+  135  host ns.gomez.net
+  136  nslookup
+  137  dig docs.gomez.net TXT
+  138  exit
+  139  curl 192.168.50.3
+  140  wget 192.168.50.3
+  141  sudo /etc/resolv.conf 
+  142  sudo nano /etc/resolv.conf 
+  143  host server.servicios.com
+  144  host ns.gomez.net
+  145  exit
+  146  sudo /etc/resolv.conf 
+  147  sudo /etc/resolv.conf
+  148  sudo /etc/resolv.conf 
+  149  sudno nao /etc/resolv.conf 
+  150  sudo nano /etc/resolv.conf 
+  151  host ns.gomez.net
+  152  host 192.168.50.3
+  153  host server.anotherdomain.com
+  154  curl www.servicios.com
+  155  curl www.another.com
+  156  curl www.anotherdomain.com
+  157  exit
+  158  curl www.servicios.com
+  159  sudo nano /etc/resolv.conf 
+  160  curl 192.168.50.3
+  161  host www.servicios.com
+  162  curl www.servicios.com
+  163  host www.miotrositio.com
+  164  curl www.miotrositio.com
+  165  curl 192.168.50.3/~pedro/pedro.html
+  166  192.168.50.3/~maria/maria.html
+  167  curl 192.168.50.3/~maria/maria.html
+  168  curl 192.168.50.3/~juan/juan.html
+  169  wget -qO- http://192.168.50.3/~pedro/pedro.html
+  170  wget -qO- http://192.168.50.3/~maria/maria.html
+  171  wget -qO- http://192.168.50.3/~juan/juan.html
+  172  dig servicios.com
+  173  dig miotrositio.com
+  174  sudo nano /etc/resolv.conf 
+  175  clear
+  176  exit
+  177  curl www.servicios.com
+  178  curl 192.168.50.3/inventario
+  179  curl 192.168.50.3/inventario/
+  180  cd /etc/resolv.conf 
+  181  sudo nano /etc/resolv.conf 
+  182  curl 192.168.50.3/inventario/
+  183  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  184  cd /etc/apache2
+  185  cd /etc/apache2/
+  186  curl http://servicios.com
+  187  host servicios.com
+  188  host www.servicios.com
+  189  sudo nano /etc/hosts
+  190  host servicios.com
+  191  sudo systemd-resolve --flush-caches
+  192  host servicios.com
+  193  host miotrositio.com
+  194  host servicios.com
+  195  sudo nano /etc/resolv.conf
+  196  curl 192.168.50.3/inventario/
+  197  wget -qO- http://192.168.50.3/~maria/maria.html
+  198  host servicios.com
+  199  wget -qO- http://servicios.com/~maria/maria.html
+  200  sudo nano /etc/resolv.conf
+  201  host servicios.com
+  202  sudo nano /etc/resolv.conf
+  203  host servicios.com
+  204  wget -qO- http://servicios.com/~maria/maria.html
+  205  host server.servicios.com
+  206  host miotrositio.com
+  207  host server.miotrositio.com
+  208  apache2 --version
+  209  apache2 -V
+  210  apache2 -v.
+  211  apache2 -v
+  212  host miotrositio.com
+  213  host servicios.com
+  214  host miotrositio.com
+  215  nslookup servicios.com
+  216  nslookup miotrositio.com
+  217  curl www.servicios.com
+  218  curl miotrositio.com
+  219  curl www.miotrositio.com
+  220  clear
+  221  cd /etc/apache2
+  222  clera
+  223  clear
+  224  curl miotrositio.com
+  225  curl www.servicios.com
+  226  curl www.miotrositio.com
+  227  dig www.servicios.com
+  228  dig www.miotrositio.com
+  229  curl www.servicios.com
+  230  curl www.miotrositio.com
+  231  dig www.servicios.com
+  232  dig www.miotrositio.com
+  233  curl www.servicios.com
+  234  curl www.miotrositio.com
+  235  host miotrositio.com
+  236  host servicios.com
+  237  curl www.miotrositio.com
+  238  wget -qO- http://servicios.com/~maria/maria.html
+  239  wget -qO- http://servicios.com/~pedro/pedro.html
+  240  wget -qO- http://servicios.com/~juan/juan.html
+  241  curl www.servicios.com/inventario
+  242  curl www.servicios.com
+  243  curl www.miotrositio.com
+  244  clear
+  245  curl www.miotrositio.com
+  246  curl www.servicios.com
+  247  curl www.servicios.com/inventario
+  248  host www.servicios.com
+  249  host www.miotrositio.com
+  250  exit
+  251  sudo apt install nginx
+  252  sudo apt update
+  253  sudo apt install nginx
+  254  sudo nano /etc/nginx/sites-available/www.ejercicio.com
+  255  mkdir -p /var/www/domain-name.com/html
+  256  sudo mkdir -p /var/www/www.ejercicio.com/html
+  257  chmod -R 755 /var/www
+  258  sudo chmod -R 755 /var/www
+  259  ln -s /etc/nginx/sites-available/domain-name.com /etc/nginx/sites-enabled/
+  260  sudo ln -s /etc/nginx/sites-available/domain-name.com /etc/nginx/sites-enabled/
+  261  nginx -t
+  262  sudo nginx -t
+  263  sudo nano /etc/nginx/sites-enabled/
+  264  cd /etc/nginx/sites-enabled/
+  265  ls
+  266  nano domain-name.com 
+  267  sudo rm -rf domain-name.com 
+  268  sudo nginx -t
+  269  sudo nano /etc/nginx/sites-available/www.ejercicio.com
+  270  sudo ln -s /etc/nginx/sites-available/www.ejercicio.com /etc/nginx/sites-enabled/
+  271  sudo nginx -t
+  272  systemctl restart nginx
+  273  sudo systemctl restart nginx
+  274  ifconfig
+  275  cd
+  276  cd /var/www/
+  277  ls
+  278  cd www.ejercicio.com/
+  279  ls
+  280  cd html/
+  281  ls
+  282  ls -al
+  283  sudo nano index.html
+  284  sudo systemctl restart nginx
+  285  cd /etc/
+  286  sudo nano resolv.conf 
+  287  cd ..
+  288  cd /var/www/
+  289  ls
+  290  cd www.ejercicio.com/
+  291  ls
+  292  cd html/
+  293  ls
+  294  sudo nano /etc/nginx/sites-available/www.ejercicio.com
+  295  sudo mv /etc/nginx/sites-available/www.ejercicio.com /etc/nginx/sites-available/ejercicio.com
+  296  sudo nano /etc/nginx/sites-available/ejercicio.com 
+  297  cd /var/www/
+  298  ls
+  299  pwd
+  300  sudo mv /var/www/www.ejercicio.com/ /var/www/ejercicio.com
+  301  ls
+  302  cd ejercicio.com/
+  303  sudo systemctl restart nginx
+  304  sudo ln -s /etc/nginx/sites-available/ejercicio.com /etc/nginx/sites-enabled/
+  305  sudo nginx -t
+  306  sudo nano /etc/nginx/sites-available/ejercicio.com
+  307  cd /var/www/
+  308  ls
+  309  cd ejercicio.com/
+  310  ls
+  311  ln -s /etc/nginx/sites-available/ejercicio.com /etc/nginx/sites-enabled/
+  312  sudo ln -s /etc/nginx/sites-available/ejercicio.com /etc/nginx/sites-enabled/
+  313  sudo nginx -t
+  314  sudo rm /etc/nginx/sites-enabled/www.ejercicio.com
+  315  sudo ln -s /etc/nginx/sites-available/ejercicio.com /etc/nginx/sites-enabled/
+  316  sudo nginx -t
+  317  sudo systemctl restart nginx
+  318  host www.ejercicio.com
+  319  host ejercicio.com
+  320  sudo nano /etc/resolv.conf 
+  321  sudo systemctl restart nginx
+  322  host www.ejercicio.com
+  323  rm /etc/nginx/sites-enabled/default
+  324  sudo rm /etc/nginx/sites-enabled/default
+  325  sudo systemctl restart nginx
+  326  ls
+  327  cd html/
+  328  ls
+  329  exit
+  330  sudo nano /etc/resolv.conf 
+  331  cd /etc/nginx
+  332  ls
+  333  cd sites-enabled/
+  334  ls
+  335  nano ejercicio.com 
+  336  cd /var/www
+  337  ls
+  338  cd sites-enabled/
+  339  cd ..
+  340  cd /etc/nginx/
+  341  ls
+  342  cd sites-enabled/
+  343  ls
+  344  cat ejercicio.com 
+  345  cd /var/www/
+  346  ls
+  347  cd ejercicio.com/
+  348  ls
+  349  cd html/
+  350  cat index.html 
+  351  vagrant halt
+  352  exit
+  353  host 192.168.50.3
+  354  cd /etc/nginx/
+  355  ls
+  356  cd sites-available/
+  357  ls
+  358  nano ejercicio.com 
+  359  cd ..
+  360  cd /var/www/
+  361  ls
+  362  cd html/
+  363  ls
+  364  cat index.nginx-debian.html 
+  365  clear
+  366  ls
+  367  cd ..
+  368  l
+  369  ls
+  370  clear
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  clear
+  375  cd /etc/nginx/
+  376  ls
+  377  cd modules-available/
+  378  ls
+  379  clear
+  380  cd ..
+  381  clear
+  382  ls
+  383  cd modules-enabled/
+  384  ls
+  385  clear
+  386  cd ..
+  387  clear
+  388  ls
+  389  cd sites-available/
+  390  ls
+  391  cat ejercicio.com 
+  392  nano ejercicio.com 
+  393  ls
+  394  cd ..
+  395  ls
+  396  cd sites-enabled/
+  397  ls
+  398  cat ejercicio.com 
+  399  cd /var/www/
+  400  ls
+  401  cd ejercicio.com/
+  402  ls
+  403  cat html/index.html 
+  404  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+  405  sudo nano /etc/nginx/sites-available/ejercicio.com
+  406  sudo systemctl restart nginx
+  407  clear
+  408  exit
+  409  cd /etc/nginx/
+  410  ls
+  411  cd sites-available/
+  412  ls
+  413  cd ejercicio.com 
+  414  clear
+  415  nano ejercicio.com 
+  416  clear
+  417  exit
+  418  ipconfig
+  419  ifconfig
+  420  clera
+  421  clear
+  422  sudo systemctl status apache2
+  423  sudo systemctl status nginx
+  424  curl localhosy
+  425  curl localhost
+  426  apache2 --version
+  427  cd /etc/
+  428  nginx
+  429  cd nginx/
+  430  ls
+  431  cd sites-available/
+  432  ls
+  433  cd ejercicio.com 
+  434  nano ejercicio.com 
+  435  cd /var/www/
+  436  ls
+  437  cd ejercicio.com
+  438  ls
+  439  cd html/
+  440  ls
+  441  cat index.html 
+  442  sudo nano /etc/nginx/sites-available/ejercicio.com
+  443  sudo nginx -t
+  444  sudo systemctl restart nginx
+  445  curl http://ejercicio.com
+  446  sudo lsof -i -P -n | grep LISTEN
+  447  sudo apt install apache2 -y
+  448  sudo systemctl start apache2
+  449  sudo systemctl enable apache2
+  450  sudo systemctl status apache2
+  451  sudo systemctl stop nginx
+  452  sudo systemctl status apache2
+  453  sudo systemctl start apache2
+  454  sudo systemctl status apache2
+  455  sudo systemctl enable apache2
+  456  sudo systemctl status apache2
+  457  cd /var/www/html
+  458  ls
+  459  cat index.
+  460  cat index.html 
+  461  exit
+  462  ls
+  463  clear
+  464  cd /var/www/
+  465  ls
+  466  cd html/
+  467  ls
+  468  cat index.
+  469  cat index.html 
+  470  cd ..
+  471  ftp 192.168.50.3
+  472  cd
+  473  sudo systemctl status nginx
+  474  sudo systemctl stop nginx
+  475  sudo systemctl start apache2
+  476  sudo systemctl enable apache2
+  477  sudo systemctl status apache2
+  478  exit
+  479  sudo systemctl stop nginx
+  480  cd /etc/apache2/
+  481  ls
+  482  cd
+  483  cd /var/www/
+  484  ls
+  485  cd html/
+  486  ls
+  487  cat index.
+  488  cat index.html 
+  489  sudo nano index.html 
+  490  sudo systemctl restart apache2
+  491  sudo nano index.html 
+  492  sudo systemctl restart apache2
+  493  sudo apt list openssl
+  494  sudo systemctl restart apache2
+  495  sudo systemctl status apache2
+  496  sudo systemctl status nginx
+  497  sudo systemctl stop nginx
+  498  sudo systemctl start apache2
+  499  sudo systemctl status apache2
+  500  sudo systemctl restart apache2
+  501  sudo apache2ctl -M | grep ssl
+  502  sudo a2enmod ssl
+  503  sudo systemctl restart apache2
+  504  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+  505  sudo nano /etc/apache2/sites-available/servicios.com.conf
+  506  sudo a2ensite servicios.com.conf
+  507  sudo apache2ctl configtest
+  508  systemcl reload apache2
+  509  clear
+  510  exit
+  511  sudo systemctl status apache2
+  512  nc -zv 192.168.50.3
+  513  nc -zv 192.168.50.3 21
+  514  clear
+  515  nc -zv 192.168.50.3 21
+  516  exit
+  517  vsftpd --version
+  518  sudo systemctl status vsftpd
+  519  sudo apt update
+  520  sudo apt install vsftpd ftp
+  521  sudo apt install vsftpd
+  522  sudo nano /etc/vsftpd.conf
+  523  cd /etc/
+  524  ls
+  525  sudo nano /etc/vsftpd.conf
+  526  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.key -out /etc/ssl/certs/vsftpd.crt
+  527  rsa_cert_file=/etc/ssl/certs/vsftpd.crt
+  528  rsa_private_key_file=/etc/ssl/private/vsftpd.key
+  529  sudo systemctl restart vsftpd
+  530  sudo systemctl status nginx
+  531  sudo systemctl stop nginx
+  532  sudo systemctl status nginx
+  533  sudo systemctl stop apache2
+  534  sudo systemctl status apache2
+  535  sudo systemctl status vsftpd
+  536  sudo systemctl restart vsftpd
+  537  sudo systemctl status vsftpd
+  538  sudo systemctl start vsftpd
+  539  sudo systemctl status vsftpd
+  540  sudo systemctl enable vsftpd
+  541  sudo systemctl restart vsftpd
+  542  sudo systemctl status vsftpd
+  543  sudo nano /etc/vsftpd.conf
+  544  sudo systemctl restart vsftpd
+  545  sudo systemctl status vsftpd
+  546  sudo nano /etc/vsftpd.conf
+  547  sudo systemctl restart vsftpd
+  548  sudo systemctl status vsftpd
+  549  sudo nano /etc/vsftpd.conf
+  550  ls -l /etc/ssl/certs/vsftpd.crt
+  551  ls -l /etc/ssl/private/vsftpd.key
+  552  sudo ls -l /etc/ssl/private/vsftpd.key
+  553  sudo nano /etc/vsftpd.conf
+  554  sudo systemctl restart vsftpd
+  555  sudo systemctl status vsftpd
+  556  sudo systemctl start vsftpd
+  557  sudo systemctl status vsftpd
+  558  sudo nano /etc/vsftpd.conf
+  559  sudo systemctl restart vsftpd
+  560  sudo systemctl status vsftpd
+  561  sudo journalctl -xe
+  562  clear
+  563  sudo vsftpd /etc/vsftpd.conf
+  564  sudo nano /etc/vsftpd.conf
+  565  sudo vsftpd /etc/vsftpd.conf
+  566  sudo nano /etc/vsftpd.conf
+  567  sudo vsftpd /etc/vsftpd.conf
+  568  sudo nano /etc/vsftpd.conf
+  569  sudo vsftpd /etc/vsftpd.conf
+  570  sudo nano /etc/vsftpd.conf
+  571  sudo vsftpd /etc/vsftpd.conf
+  572  sudo systemctl restart vsftpd
+  573  sudo vsftpd /etc/vsftpd.conf
+  574  sudo nano /etc/vsftpd.conf
+  575  sudo vsftpd /etc/vsftpd.conf
+  576  sudo systemctl restart vsftpd
+  577  sudo vsftpd /etc/vsftpd.conf
+  578  sudo nano /etc/vsftpd.conf
+  579  sudo vsftpd /etc/vsftpd.conf
+  580  sudo nano /etc/vsftpd.conf
+  581  sudo vsftpd /etc/vsftpd.conf
+  582  sudo netstat -tuln | grep :21
+  583  sudo lsof -i :21
+  584  sudo kill 3008
+  585  sudo netstat -tuln | grep :21
+  586  sudo vsftpd /etc/vsftpd.conf
+  587  sudo systemctl restart vsftpd
+  588  clear
+  589  sudo vsftpd /etc/vsftpd.conf
+  590  sudo systemctl status
+  591  clear
+  592  sudo systemctl status vsftpd
+  593  ftp -p 192.168.50.3
+  594  ftp 192.168.50.3
+  595  sudo adduser john_doe
+  596  sudo mkdir /home/john_doe/ftps
+  597  ls
+  598  clear
+  599  sudo chown nobody::nogroup /home/john_doe/ftps
+  600  cd /home/
+  601  ls
+  602  cd john_doe/
+  603  sudo cd john_doe/
+  604  clear
+  605  sudo chown nobody:nogroup /home/john_doe/ftps
+  606  cd john_doe/
+  607  sudo chmod a-w /home/john_doe/ftps
+  608  sudo ls -la /home/john_doe/ftps
+  609  sudo mkdir /home/john_doe/ftps/john_files
+  610  sudo chown john_doe:john_doe /home/john_doe/ftps/john_files
+  611  sudo ls -la /home/john_doe/ftps
+  612  echo "vsftpd test file" | sudo tee /home/john_doe/ftps/files/test.txt
+  613  sudo nano /etc/vsftpd.conf
+  614  echo "john_doe" | sudo tee -a /etc/vsftpd.userlist
+  615  cat /etc/vsftpd.userlist
+  616  sudo systemctl restart vsftpd
+  617  sudo systemctl status vsftpd
+  618  ftp -p 192.168.50.3
+  619  clear
+  620  ftp -p 192.168.50.3
+  621  cat /etc/vsftpd.userlist
+  622  sudo nano /etc/vsftpd.conf
+  623  ftp -p 192.168.50.3
+  624  cat /etc/passwd
+  625  sudo systemctl restart vsftpd
+  626  sudo nano /etc/vsftpd.conf
+  627  sudo systemctl restart vsftpd
+  628  ftp -p 192.168.50.3
+  629  sudo nano /etc/vsftpd.conf
+  630  sudo systemctl restart vsftpd
+  631  ftp -p 192.168.50.3
+  632  clear
+  633  cat /etc/passwd
+  634  cat /etc/vsftpd.userlist
+  635  clear
+  636  sudo ufw status
+  637  sudo adduser felipe
+  638  ftp -p 192.168.50.3
+  639  sudo nano /etc/vsftpd.conf
+  640  cat /etc/vsftpd.userlist
+  641  sudo nano /etc/vsftpd.conf
+  642  ftp -p 192.168.50.3
+  643  sudo apt install lftp
+  644  lftp -u john_doe 192.168.50.3
+  645  lftp -u john_doe 192.168.50.3 -e "set ssl:verify-certificate no; ls"
+  646  sudo nano /etc/vsftpd.conf
+  647  sudo systemctl restart vsftpd
+  648  lftp -u john_doe 192.168.50.3 -e "set ssl:verify-certificate no; ls"
+  649  lftp -u john_doe 192.168.50.3
+  650  lftp -u john_doe 192.168.50.3 -e "set ssl:verify-certificate no; ls"
+  651  lftp -u john_doe 192.168.50.3 -e "set ssl:verify-certificate no; set ftp:passive-mode yes; ls"
+  652  lftp -u john_doe 192.168.50.3 -e "set ssl:verify-certificate no; set ftp:passive-mode no; ls"
+  653  exit
+  654  sudo deluser john_doe --remove-home
+  655  sudo rm /etc/vsftpd.userlist
+  656  sudo rm /etc/ssl/certs/vsftpd.crt
+  657  sudo rm /etc/ssl/private/vsftpd.key
+  658  sudo systemctl restart vsftpd
+  659  sudo nano /etc/vsftpd.conf 
+  660  sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
+  661  sudo nano /etc/vsftpd.conf 
+  662  sudo systemctl restart vsftpd
+  663  sudo systemctl status vsftpd
+  664  sudo vsftpd /etc/vsftpd.conf
+  665  sudo nano /etc/vsftpd.conf 
+  666  sudo vsftpd /etc/vsftpd.conf
+  667  sudo systemctl restart vsftpd
+  668  sudo systemctl status vsftpd
+  669  sudo vsftpd /etc/vsftpd.conf
+  670  sudo nano /etc/vsftpd.conf 
+  671  sudo vsftpd /etc/vsftpd.conf
+  672  sudo systemctl restart vsftpd
+  673  sudo systemctl status vsftpd
+  674  sudo systemctl restart vsftpd
+  675  sudo systemctl status vsftpd
+  676  sudo useradd foo
+  677  sudo passwd foo
+  678  ls /home
+  679  rm -rf /home/felipe/
+  680  sudo rm -rf /home/felipe/
+  681  sudo mkdir -p /home/foo/ftp/files
+  682  sudo chmod 550 /home/foo/ftp
+  683  sudo chmod 750 /home/foo/ftp/files
+  684  sudo chown -R /home/foo/ftp
+  685  sudo chown -R foo: /home/foo/ftp
+  686  ftp 192.168.50.3
+  687  ftp 192.168.50.2
+  688  sudo nano /etc/vsftpd.conf
+  689  sudo systemctl restart vsftpd
+  690  sudo systemctl status vsftpd
+  691  ftp 192.168.50.3
+  692  sudo nano /etc/vsftpd.conf
+  693  sudo systemctl restart vsftpd
+  694  sudo systemctl status vsftpd
+  695  ftp 192.168.50.3
+  696  sudo nano /etc/vsftpd.conf
+  697  sudo systemctl restart vsftpd
+  698  ftp 192.168.50.3
+  699  exit
+  700  sudo systemctl status vsftpd
+  701  ftp 192.168.50.3
+  702  sudo nano /etc/vsftpd.conf
+  703  ftp 192.168.50.3
+  704  cd /home/
+  705  ls
+  706  /var/log/vsftpd.log
+  707  sudo /var/log/vsftpd.log
+  708  sudo cat /var/log/vsftpd.log
+  709  sudo nano /etc/vsftpd.conf
+  710  sudo systemctl restart vsftpd
+  711  sudo systemctl status vsftpd
+  712  lftp -u foo 192.168.50.3 -e "set ssl:verify-certificate no; ls"
+  713  sudo apt-get remove --purge vsftpd
+  714  sudo deluser --remove-home foo
+  715  sudo rm /etc/ssl/certs/vsftpd.pem
+  716  sudo rm /etc/ssl/private/vsftpd.pem
+  717  sudo rm -rf /etc/ssl//certs/vsftpd.pem
+  718  sudo rm -rf /etc/ssl/certs/vsftpd.pem
+  719  sudo rm -rf /etc/ssl/private/vsftpd.pem
+  720  sudo rm /etc/ssl/certs/vsftpd.crt
+  721  sudo rm /etc/ssl/private/vsftpd.key
+  722  sudo apt-get update
+  723  sudo apt-get install vsftpd
+  724  sudo nano /etc/vsftpd.conf 
+  725  exit
+  726  sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
+  727  sudo adduser felipe
+  728  sudo adduser andres
+  729  sudo mkdir /home/andres/ftp
+  730  sudo chown nobody:nogroup /home/sammy/ftp
+  731  sudo chown nobody:nogroup /home/andres/ftp
+  732  sudo chmod a-w /home/andres/ftp
+  733  sudo ls -la /home/andres/ftp
+  734  sudo mkdir /home/andres/ftp/files
+  735  sudo chown andres:andres /home/andres/ftp/files
+  736  sudo ls -la /home/andres/ftp
+  737  echo "vsftpd test file" | sudo tee /home/andres/ftp/files/test.txt
+  738  sudo nano /etc/vsftpd.conf
+  739  echo "andres" | sudo tee -a /etc/vsftpd.userlist
+  740  cat /etc/vsftpd.userlist
+  741  sudo systemctl restart vsftpd
+  742  ftp -p 203.0.113.0
+  743  ftp -p 192.168.50.3
+  744  sudo systemctl status vsftpd
+  745  ftp 192.168.50.3
+  746  ftp -p 192.168.50.2
+  747  ftp -p 192.168.50.3
+  748  sudo systemctl restart vsftpd
+  749  ftp -p 192.168.50.3
+  750  ftp 192.168.50.3
+  751  sudo systemctl status vsftpd
+  752  sudo cat /var/log/vsftpd.log
+  753  clear
+  754  ftp -p 192.168.50.3
+  755  ftp -p 192.168.50.2
+  756  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
+  757  sudo nano /etc/vsftpd.conf
+  758  sudo systemctl restart vsftpd
+  759  sudo systemctl status vsftpd
+  760  ftp -p 192.168.50.3
+  761  ftp -p 192.168.50.2
+  762  ftp 192.168.50.3
+  763  sudo nano /etc/vsftpd.conf
+  764  sudo systemctl restart vsftpd
+  765  ftp -p 192.168.50.3
+  766  sudo nano /etc/vsftpd.conf
+  767  sudo systemctl restart vsftpd
+  768  ftp -p 192.168.50.3
+  769  sudo journalctl -xe
+  770  clear
+  771  sudo journalctl -u vsftpd.service
+  772  ftp -p 192.168.50.2
+  773  ftp -p 192.168.50.3
+  774  sudo systemctl status vsftpd
+  775  sudo systemctl restart vsftpd
+  776  sudo systemctl status vsftpd
+  777  sudo nano /etc/vsftpd.conf
+  778  sudo systemctl restart vsftpd
+  779  sudo systemctl status vsftpd
+  780  ftp 192.168.50.3
+  781  ftp 192.168.50.2
+  782  exit
+  783  sudo systemctl status nginx
+  784  sudo systemctl stop nginx
+  785  sudo systemctl stop apache2
+  786  ftp -p 192.168.50.3
+  787  sudo tcpdump -i eth0 port 21
+  788  tail -f /var/log/vsftpd.log
+  789  clear
+  790  ftp 192.168.50.3
+  791  tail -f /var/log/vsftpd.log
+  792  sudo tail -f /var/log/vsftpd.log
+  793  cd /etc
+  794  ls
+  795  cd ca-certificates
+  796  ls
+  797  cd update.d/
+  798  ls
+  799  cd ..
+  800  clear
+  801  ls
+  802  nano ca-certificates.conf 
+  803  nano nftables.conf 
+  804  sudo cat vsftpd.conf
+  805  ftp 192.168.50.3
+  806  ftp-p 192.168.50.3
+  807  ftp -p 192.168.50.3
+  808  ftp -p 192.168.50.2
+  809  clear
+  810  sudo systemctl restart vsftpd
+  811  ftp -p 192.168.50.3
+  812  ftp 192.168.50.3
+  813  ftp 192.168.50.2
+  814  ftp -p 192.168.50.3
+  815  sudo tail -f /var/log/vsftpd.log
+  816  clear
+  817  ftp -p 192.168.50.3
+  818  sudo tail -f /var/log/vsftpd.log
+  819  sudo nano /etc/vsftpd.conf
+  820  sudo cat /etc/vsftpd.conf
+  821  sudo systemctl restart vsftpd
+  822  sudo systemctl status vsftpd
+  823  ftp 192.168.50.3
+  824  sudo cat /etc/vsftpd.conf
+  825  sudo nano /etc/vsftpd.conf
+  826  sudo systemctl restart vsftpd
+  827  ftp 192.168.50.3
+  828  sudo nano /etc/vsftpd.conf
+  829  sudo systemctl restart vsftpd
+  830  sudo systemctl status vsftpd
+  831  ftp 192.168.50.3
+  832  ftp 192.168.50.2
+  833  exit
+  834  ftp 192.168.50.3
+  835  sudo nano /etc/vsftpd.conf
+  836  cd /etc/
+  837  ls
+  838  sudo rm -rf vsftpd.conf
+  839  cat vsftpd.conf.orig 
+  840  sudo nano vsftpd.conf
+  841  sudo systemctl restart vsftpd
+  842  sudo nano vsftpd.conf
+  843  sudo systemctl stop vsftpd
+  844  sudo rm /etc/ssl/private/vsftpd.pem
+  845  sudo systemctl start vsftpd
+  846  sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
+  847  sudo nano /etc/vsftpd.conf
+  848  sudo systemctl restart vsftpd
+  849  sudo useradd usuario
+  850  sudo passwd usuario
+  851  sudo mkdir -p /home/usuario/ftp/
+  852  sudo chmod 550 /home/usuario/ftp/files/
+  853  sudo chmod 750 /home/usuario/ftp/files/
+  854  sudo chown -R usuario: /home/usuario/ftp
+  855  sudo systemctl restart vsftpd
+  856  ftp 192.168.50.3
+  857  sudo systemctl restart vsftpd
+  858  ftp 192.168.50.3
+  859  ftp -p 192.168.50.3
+  860  ftp -p 192.168.50.2
+  861  sudo systemctl status vsftpd
+  862  sudo systemctl start vsftpd
+  863  sudo systemctl status vsftpd
+  864  sudo netstat -tuln | grep 21
+  865  sudo tail -f /var/log/vsftpd.log
+  866  ftp -p 192.168.50.3
+  867  sudo nano /etc/vsftpd.conf
+  868  sudo systemctl restart vsftpd
+  869  sudo systemctl status vsftpd
+  870  ftp -p 192.168.50.3
+  871  cut -d: -f1 /etc/passwd
+  872  cd /home/
+  873  ls
+  874  cd andres/
+  875  sudo -i
+  876  clear
+  877  ftp -p 192.168.50.3
+  878  sudo nano /etc/vsftpd.conf
+  879  sudo systemctl restart vsftpd
+  880  ftp -p 192.168.50.3
+  881  sudo nano /etc/vsftpd.conf
+  882  sudo systemctl restart vsftpd
+  883  ftp -p 192.168.50.3
+  884  sudo nano /etc/vsftpd.conf
+  885  sudo systemctl restart vsftpd
+  886  ftp -p 192.168.50.3
+  887  sudo nano /etc/vsftpd.conf
+  888  sudo systemctl restart vsftpd
+  889  ftp -p 192.168.50.3
+  890  sudo tail -f /var/log/vsftpd.log
+  891  sudo systemctl restart vsftpd
+  892  ftp -p 192.168.50.3
+  893  sudo nano /etc/vsftpd.conf
+  894  sudo systemctl restart vsftpd
+  895  ftp -p 192.168.50.3
+  896  sudo systemctl restart vsftpd
+  897  sudo nano /etc/vsftpd.conf
+  898  exit
+  899  ftp 192.168.50.3
+  900  sudo tail -f /var/log/vsftpd.log
+  901  sudo nano /etc/vsftpd.conf
+  902  sudo tail -f /var/log/vsftpd.log
+  903  exit
+  904  sudo nano /etc/vsftpd.conf
+  905  sudo systemctl restart vsftpd
+  906  ftp -p 192.168.50.3
+  907  exit
+  908  sudo nano /etc/vsftpd.conf
+  909  exit
+  910  sudo systemctl restart vsftpd
+  911  sudo systemctl status vsftpd
+  912  cd /home/
+  913  git clone https://github.com/TheNotoriousPhilipDev/services.git
+  914  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+  915  cd
+  916  cd /home/
+  917  ls
+  918  cd services/
+  919  ls
+  920  sudo git checkout 2_corte
+  921  ls
+  922  cd FTP_Seguro/
+  923  ls
+  924  sudo cp /etc/vsftpd.conf config_files/vsftpd.conf.txt
+  925  mkdir client_server_scripts_history
+  926  sudo mkdir client_server_scripts_history
+  927  cd client_server_scripts_history/
+  928  sudo cp /etc/vsftpd.conf /home/services/FTP_Seguro/client_server_scripts_history/vsftpd.conf.txt
+  929  sudo git add .
+  930  sudo git commit -m "done"
+  931  sudo git push origin 2_corte
+  932  ls
+  933  sudo rm -rf vsftpd.conf.txt 
+  934  history | sudo tee /home/services/FTP_Seguro/client_server_scripts_history/history_scripts.txt > dev/null
+  935  pwd
+  936  cd ..
+  937  sudo mv client_server_scripts_history/ client_scripts_history/
+  938  cd client_scripts_history/
+  939  history | sudo tee /home/services/FTP_Seguro/server_scripts_history/history_scripts.txt > /dev/null
+  940  ls
+  941  cd ..
+  942  cd server_scripts_history/
+  943  ls
+  944  history | sudo tee /home/services/FTP_Seguro/client_scripts_history/history_scripts.txt > /dev/null
