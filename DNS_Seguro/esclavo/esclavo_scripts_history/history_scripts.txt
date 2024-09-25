@@ -1,0 +1,87 @@
+    1  vagrant ssh maestro
+    2  sudo apt update
+    3  sudo apt install bind9 bind9utils bind9-doc
+    4  cd /etc/bind
+    5  ls
+    6  sudo nano named.conf.local 
+    7  sudo systemctl restart bind9
+    8  ping 192.168.50.4
+    9  ping 192.168.50.6
+   10  dig @192.168.50.6 example.com
+   11  sudo nano named.conf.local 
+   12  sudo cat named.conf.local 
+   13  exit
+   14  dig @192.168.50.6 example.com
+   15  dig @192.168.50.6 www.example.com
+   16  ifconfig
+   17  ipconfig
+   18  dig @192.168.50.6 www.example.com
+   19  dig @192.168.50.6 192.168.50.5
+   20  cd /etc/bind
+   21  ls
+   22  cat named.conf.local 
+   23  sudo nano named.conf.local 
+   24  cat named.conf.local 
+   25  sudo systemctl restart bind9
+   26  dig @192.168.50.6 www.example.com
+   27  dig @192.168.50.6 example.com
+   28  sudo tail -f /var/log/syslog
+   29  dig @192.168.50.6 example.com
+   30  sudo nano /etc/bin/named.conf.options
+   31  ls
+   32  sudo nano named.conf.options 
+   33  sudo systemctl restart bind9
+   34  sudo nano named.conf.options 
+   35  exit
+   36  dig @192.168.50.6 example.com
+   37  host www.example.com 192.168.50.6
+   38  ping 192.168.50.4
+   39  cd /etc/bind
+   40  ls
+   41  sudo nano named.conf.local 
+   42  dig @192.168.50.6 example.com
+   43  sudo systemctl status bind9
+   44  cat named.conf.options
+   45  sudo nano named.conf.options
+   46  sudo tail -f /var/log/syslog
+   47  sudo nano named.conf.options
+   48  sudo systemctl restart vsftpd
+   49  sudo systemctl restart bind9
+   50  cat named.conf.options
+   51  clear
+   52  ls
+   53  nano named.conf.local 
+   54  sudo systemctl status bind9
+   55  sudo tail -f /var/log/syslog | grep named
+   56  sudo systemctl status bind9
+   57  clear
+   58  sudo nano named.conf.options 
+   59  sudo systemctl status bind9
+   60  sudo systemctl restart bind9
+   61  sudo systemctl status bind9
+   62  sudo chown -R bind:bind /etc/bind/
+   63  sudo chmod -R 755 /etc/bind/
+   64  exit
+   65  sudo git clone https://github.com/TheNotoriousPhilipDev/services.git
+   66  ls
+   67  cd services/
+   68  ls
+   69  sudo git checkout 2_corte
+   70  ls
+   71  sudo mkdir DNS_Seguro
+   72  cd DNS_Seguro/
+   73  sudo mkdir esclavo
+   74  sudo mkdir config_files
+   75  sudo mkdir esclavo_scripts_history
+   76  sudo cp /etc/bind/named.conf.local ~/services/DNS_Seguro/config_files/config_files.txt
+   77  ls
+   78  mv config_files/ esclavo
+   79  sudo mv config_files/ esclavo
+   80  sudo mv esclavo_scripts_history/ esclavo
+   81  ls
+   82  cd esclavo/
+   83  ls
+   84  cd esclavo_scripts_history/
+   85  history | sudo tee ~/services/DNS_Seguro/esclavo_scripts_history/history_scripts.txt > /dev/null
+   86  pwd
+   87  history | sudo tee /home/vagrant/services/DNS_Seguro/esclavo/esclavo_scripts_history/history_scripts.txt > /dev/null
